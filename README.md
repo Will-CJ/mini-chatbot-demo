@@ -143,12 +143,6 @@ Note: on Hugging Face Spaces the disk is temporary, so a restart goes back to th
 3. In **Settings → Variables and secrets**, add `LLM_API_KEY`, `LLM_MODEL`, `ADMIN_TOKEN` and `CONTACT_URL`.
 4. The Space builds and serves the app at its public URL.
 
-## Testing
-```bash
-python run_tests.py
-```
-This runs the 8 assessment questions plus extra checks (not-in-content, Spanish, follow-up country) and saves the answers to `test_results.md`. Questions 3 and 4 run in the same conversation to test follow-ups.
-
 ## Project structure
 ```
 app.py            Chat app: prompt, LLM call, fallback, logging, refresh, UI
