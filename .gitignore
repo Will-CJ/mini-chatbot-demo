@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.venv/
+*.tmp
+venv/
+unanswered.csv
+.DS_Store
